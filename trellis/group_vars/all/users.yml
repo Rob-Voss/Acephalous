@@ -9,24 +9,14 @@ users:
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       # - https://github.com/username.keys
-      - https://github.com/GarrettWeinberg.keys
-      - https://github.com/MikaCaldera.keys
-      - https://github.com/cjdias11.keys
-      - https://github.com/MWDelaney.keys
       - https://github.com/Rob-Voss.keys
-      - https://github.com/tbcsheldon.keys
   - name: "{{ admin_user }}"
     groups:
       - sudo
     keys:
       - "{{ lookup('file', '~/.ssh/id_rsa.pub') }}"
       # - https://github.com/username.keys
-      - https://github.com/GarrettWeinberg.keys
-      - https://github.com/MikaCaldera.keys
-      - https://github.com/cjdias11.keys
-      - https://github.com/MWDelaney.keys
       - https://github.com/Rob-Voss.keys
-      - https://github.com/tbcsheldon.keys
 
 web_user: web
 web_group: www-data
