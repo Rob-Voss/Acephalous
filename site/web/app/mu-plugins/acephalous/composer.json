@@ -1,0 +1,13 @@
+{
+  "name": "rob-voss/acephalous-wordpress",
+  "description": "A headless WordPress backend",
+  "homepage": "https://github.com/Rob-Voss/acephalous-wordpress",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Rob Voss",
+      "email": "rob.voss@digerati.io"
+    }
+  ]
+}

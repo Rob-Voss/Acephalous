@@ -1,0 +1,13 @@
+{
+  "name": "rob-voss/acephalous-theme",
+  "description": "Headless WordPress theme.",
+  "homepage": "https://github.com/rob-voss/acephalous-theme",
+  "type": "wordpress-theme",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Rob Voss",
+      "email": "rob.voss@digerati.io"
+    }
+  ]
+}
